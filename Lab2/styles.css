@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    background-image: url(space.png);}
+
+main, header, footer{
+    max-width: 80ch;
+    margin: 0 auto;
+    padding: 10px;}
+
+header {
+    text-align: center;
+    padding: 10px;
+    border-style: dashed;
+    border-bottom: none;
+    color: black;
+    background-color: rgb(207, 192, 131);
+}
+
+a.social {
+    color: white;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: larger;
+}
+
+a.simple { color: black;}
+
+:target {
+    border: 2px solid #D4D4D4;
+    background-color: #bacc92;
+  }
+
+aside {
+    width: 40%;
+    padding-left: 10px;
+    margin-left: 10px;
+    float: right;
+}
+aside.side { font-style: italic;}
+
+#email{background-color: darkslateblue;}
+
+#email:hover, #email:active{background-color: purple;}
+
+#linkedin {background-color: cornflowerblue;}
+
+#linkedin:hover, #linkedin:active{ background-color: blue;}
+
+ul {list-style-image: url(bullet.gif);}
+
+li span {position: relative; /* bullet and text wasnt matching up, this was to fix that */
+top: -9px;}
+
+
+main {background-color: rgb(143, 143, 143);
+    border-style: dotted;
+    border-top: none;
+    border-bottom: none;
+    padding: 10px;}
+
+
+p {padding: 10px;}
+p.double{border-style: double;}
+
+p.short{margin-top: 0; padding-top: 0;}
+
+footer {background-color: silver;
+border-style: double;
+border-top: none;
+align-items: center;
+display: flex;
+justify-content: center;}
+
+button {background-color: #348837; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px;
+  float: right;
+}
+
+button:hover{
+    background-color: #7ada7d;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+  
