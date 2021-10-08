@@ -3,7 +3,7 @@ body {
     background-image: url(space.png);}
 
 main, header, footer{
-    max-width: 80ch;
+    max-width: 80ch; /* relative */
     margin: 0 auto;
     padding: 10px;}
 
@@ -66,6 +66,9 @@ p.double{border-style: double;}
 
 p.short{margin-top: 0; padding-top: 0;}
 
+img {
+    z-index: -1;
+  }
 footer {background-color: silver;
 border-style: double;
 border-top: none;
@@ -89,5 +92,32 @@ button:hover{
     color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+p.hidden {
+    display: none;
+}
+div {
+    padding: 20px;
+    opacity: 0.5;
+  }
+  
+  #box1 {
+    position: relative;
+    z-index: 1;
+    height: 50px;
+    top: 30px;
+    right: 10px;
+    background-color: red;
+    margin: 0px 50px 0px 50px;
+  }
+  
+  #box2 {
+    position: relative;
+    z-index: 2;
+    height: 50px;
+    top: 10px;
+    background-color: green;
+    margin: 0px 50px 0px 50px;
+  }
+
 
   
