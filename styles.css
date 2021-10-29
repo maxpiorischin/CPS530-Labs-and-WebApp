@@ -1,0 +1,78 @@
+/* -------Banner Section -------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to left, #333, #333 75%);
+}
+
+#banner {
+    color: #fff;
+}
+
+.my-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    background-color: #1b1b1b;
+    display: inline-block;
+    padding: 14px 25px;
+    border-radius: .35em;
+}
+
+.white {
+    color: #fff;
+}
+
+.lab-text {
+    text-align: center;
+    
+}
+
+
+a:link, a:visited {
+    margin: 30px auto 10px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: white;
+    border-radius: .35em;
+    width: max-content;
+}
+
+.lab1-link:link, .lab1-link:visited {
+    background-color: #46a1dd;
+}
+  
+.lab1-link:hover, .lab1-linkactive {
+    background-color: #2571a3;
+}
+
+.lab2-link:link, .lab2-link:visited {
+    background-color: #7b961a;
+}
+  
+.lab2-link:hover, .lab2-linkactive {
+    background-color: #637913;
+}
+
+.lab3-link:link, .lab3-link:visited {
+    background-color: #8b7960;
+}
+  
+.lab3-link:hover, .lab3-linkactive {
+    background-color: #57462f;
+}
+
+.lab4-link:link, .lab4-link:visited {
+    background-color: #9c9c9c;
+}
+  
+.lab4-link:hover, .lab4-linkactive {
+    background-color: #747474;
+}

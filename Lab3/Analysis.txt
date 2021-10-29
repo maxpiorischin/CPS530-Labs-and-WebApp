@@ -1,0 +1,12 @@
+After creating both versions of the responsive webpage, I believe the Bootstrap
+version was easier and more efficient to implement with. Some challenges I
+experienced for Non-Bootstrap was the long media queries I had to create to
+fully customize the layout for all device types. On the contrary, the Bootstrap
+implementation managed most of the responsive design for me. On the contrary, I
+had more options for customizability compared to Bootstrap. An issue I faced
+with Bootstrap was the figuring out the initial installation, and understanding
+all the feautures and elements available for me to use. Once I figured these
+features out, I was able to make my website look much more clean- and the
+responsiveness transition smoothly without too much of my own addition. Overall,
+Bootstrap took less time and was much more effective for me, I'll be using it
+for my future projects.
