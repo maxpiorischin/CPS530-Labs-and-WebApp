@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../genstyles.css">
+    <title>Lab4 part 2</title>
+</head>
+<body>
+    <h1> Lab 4 Part 2: Form Registration </h1>
+    <div>
+        <form action="https://www2.scs.ryerson.ca/~mpiorisc/cgi-bin/Lab4Part2.cgi" method="post">
+            <div class="formtype">
+                <input type="text" name="first" placeholder="First Name" class="nicebox" size="50" required>
+                <input type="text" name="last" placeholder="Last name" class="nicebox" size="50" required> 
+            </div>
+            <div class="formtype">
+                <input type="text" name="address" placeholder="Street Address" class="nicebox" size="50" required>
+                <input type="text" name="city" placeholder="City" class="nicebox" required>
+            </div>
+            <div class="formtype">
+                <select name="province" class="province nicebox" required>
+                    <option value="N" disabled selected>Province</option>
+                    <option value="ON">Ontario</option>
+                    <option value="AB">Alberta</option>
+                    <option value="BC">British Columbia</option>
+                    <option value="MB">Manitoba</option>
+                    <option value="NB">New Brunswick</option>
+                    <option value="NL">Newfoundland and Labrador</option>
+                    <option value="NS">Nova Scotia</option>
+                    <option value="PE">Prince Edward Island</option>
+                    <option value="QC">Quebec</option>
+                    <option value="SK">Saskatchewan</option>
+                    <option value="NT">Northwest Territories</option>
+                    <option value="NU">Nunavut</option>
+                    <option value="YT">Yukon</option>
+                </select>
+                <input type="text" name="postal" placeholder="Postal Code" class="nicebox" required> <br> 
+            </div>
+            <div class="formtype">
+                Gender: <br>
+                <input type="radio" name="gender" value="M" class="formtype" class="nicebox" required>
+                <label for="M">Male</label><br>
+                <input type="radio" name="gender" value="F" class="formtype" class="nicebox" required>
+                <label for="F">Female</label><br>
+                <input type="radio" name="gender" value="O" class="formtype" class="nicebox" required>
+                <label for="O">Other</label> <br>
+            </div>
+            <input type="text" name="phone" placeholder="Phone Number" class="formtype nicebox" required>
+            <input type="text" name="email" placeholder="Email Address" class="formtype nicebox" required> <br>
+            <input type="password" name="Password" placeholder="Password" class="formtype nicebox" required> <br>
+            <input type="checkbox" name="terms" value="y" class="formtype" required> Do you agree to the <a href="terms.html"> Terms and Conditions </a>
+            <input type="submit" value="Submit" class="formtype nicebox">
+        </form>
+    </div>
+</body>
+</html>

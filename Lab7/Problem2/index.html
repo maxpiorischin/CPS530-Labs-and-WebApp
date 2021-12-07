@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../../genstyles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Lab 7 Problem 2</title>
+</head>
+<body>
+    <h1 style="text-align: center;"> Lab 7 Problem 2: Radio Station Song</h1>
+    <h2 id="artist" style="text-align: center;">  </h2> <br>
+    <h2 id="Title" style="text-align: center;">  </h2>
+    <img id="image" class="myimg" width="50%">
+    <script> 
+        let url = "https://s9.reliastream.com:2199/rpc/meyima03/streaminfo.get"
+        $.getJSON(url, function(data) {
+            const track = data.data[0].track
+            document.getElementById("artist").innerHTML = track.artist;
+            document.getElementById("Title").innerHTML = track.title;
+            document.getElementById("image").src = track.imageurl;
+            
+        })
+    </script>
+</body>
+</html>

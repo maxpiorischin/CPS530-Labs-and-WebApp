@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../../genstyles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <title>Lab 7</title>
+    <script>
+        $(function () {
+            $(".part").draggable({
+                appendTo: "capture"
+            });
+        });
+    </script>
+    <script>
+            async function genpic() {
+                const existing = document.querySelector('canvas');
+                if (existing) existing.remove();
+                const canvas = await html2canvas(document.querySelector('#capture'));
+                document.body.appendChild(canvas);
+            }
+    </script>
+</head>
+<body>
+    <h1 class="title"> Lab 7 Part 1</h1>
+    <h2 class="title"> Drag and Drop The Parts to create Mr Potato Head!</h2>
+    <div id="capture">
+        <div class="potato">
+            <img src="Assets/head.png">
+        </div>
+        <div class="parts">
+            <img src="Assets/eyes.png" class="part">
+            <img src="Assets/hat.png"  class="part">
+            <img src="Assets/lips.png" class="part">
+            <img src="Assets/nose.png" class="part" style="width: 150px;">
+        </div>
+    </div>
+    <div style="">
+        <button type="button" onclick="genpic()"> generate Image! </button>
+    </div>
+</body>
+</html>

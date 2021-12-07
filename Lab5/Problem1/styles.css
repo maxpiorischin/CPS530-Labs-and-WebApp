@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+}
+
+.mult-table, td, tr {
+    margin: 30px;
+    border:1px solid black;
+}
+
+td {
+    background-color: aqua;
+    font-size: larger;
+}
+
+.mult-table{
+    width: 300px;
+}

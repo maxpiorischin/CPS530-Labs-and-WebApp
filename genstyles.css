@@ -8,6 +8,7 @@
 body {
     font-family: sans-serif;
     background-image: linear-gradient(to left, #333, #333 75%);
+    color: white;
 }
 
 #banner {
@@ -24,6 +25,27 @@ body {
     border-radius: .35em;
 }
 
+h1 {
+    color: chartreuse;
+    margin: 16px;
+}
+
+.nicebox {
+    box-sizing: border-box;
+    border-radius: .50em;
+    padding: 7px;
+}
+
+.formtype {
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.province {
+    margin-top: 0;
+}
+
 .white {
     color: #fff;
 }
@@ -31,6 +53,13 @@ body {
 .lab-text {
     text-align: center;
     
+}
+
+.pytimg {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -75,4 +104,20 @@ a:link, a:visited {
   
 .lab4-link:hover, .lab4-linkactive {
     background-color: #747474;
+}
+
+.lab5-link:link, .lab5-link:visited {
+    background-color: #dfabd8;
+}
+  
+.lab5-link:hover, .lab5-linkactive {
+    background-color: #8f5186;
+}
+
+.lab6-link:link, .lab6-link:visited {
+    background-color: #ff3d3d;
+}
+  
+.lab6-link:hover, .lab6-linkactive {
+    background-color: rgb(235, 14, 14);
 }

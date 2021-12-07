@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPS530 Lab 4</title> 
+</head>
+<body>
+    <h1> Perl Practice </h1>
+    <h2> Html Form single var </h2>
+    <form action="../../cgi-bin/test.cgi" method="post">
+        Name: <input type="text"
+        name="name" style="width: 300px;"> <br>
+        <input type="submit">
+    </form>
+
+    <h2> Html Form multiple vals </h2>
+    <form action="../../cgi-bin/test2.cgi" method="post">
+        Select your favourite Dish, you may pick more than 1: <br>
+        <input type="checkbox" name="dish" value="Pizza"> Pizza
+        <input type="checkbox" name="dish" value="Chicken"> Chicken
+        <input type="checkbox" name="dish" value="Steak"> Steak <br>
+        <input type="submit">
+    </form>
+</body>
+</html>

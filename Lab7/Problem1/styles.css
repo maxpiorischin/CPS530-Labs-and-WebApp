@@ -1,0 +1,16 @@
+.potato img{
+    margin: 0;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.parts img {
+    width: 200px;
+    height: auto;
+}
+
+.title{
+    text-align: center;
+}

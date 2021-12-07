@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../genstyles.css">
+    <title>Lab6 part 2</title>
+</head>
+<body>
+    <h1> Lab 6 Part 2: Forms in Ruby and Python </h1>
+    <div>
+        <!-- Get all variables from user -->
+        <form action="https://www2.scs.ryerson.ca/~mpiorisc/cgi-bin/Lab4Part2.cgi" method="post"> 
+            <div class="formtype">
+                <input type="text" name="Country" placeholder="Country" class="nicebox" size="50" required>
+                <input type="text" name="Province" placeholder="Province / State" class="nicebox" size="50" required> 
+            </div>
+            <div class="formtype">
+                <input type="text" name="city" placeholder="City" class="nicebox" required>
+                <input type="text" name="population" placeholder="Population" class="nicebox"required>
+                <input type="text" name="img" placeholder="Image Link, png or jpg" class="nicebox" size="50" required>
+            </div>
+            <input type="submit" value="Submit to Ruby" class="formtype nicebox" name="Ruby" formaction="../../cgi-bin/Lab6Part2R.cgi">
+            <input type="submit" value="Submit to Python" class="formtype nicebox" name="Ruby" formaction="../../cgi-bin/Lab6Part2P.cgi">
+        </form>
+    </div>
+</body>
+</html>

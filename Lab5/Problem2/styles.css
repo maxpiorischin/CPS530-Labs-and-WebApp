@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to left, #333, #333 75%);
+}
+
+.nicegreen {
+    color: chartreuse;
+}
+
+.query {
+    font-size: larger;
+    color: aqua;
+}
+
+img {
+    width: 40%;
+    height: 40%;
+}
