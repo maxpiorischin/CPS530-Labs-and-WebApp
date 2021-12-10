@@ -1,7 +1,7 @@
 # CPS530 - & labs and Final Project
 All my work for CPS530, including my final group project done using Express, React, and MaterialUI
 
-##7 Labs
+## 7 Labs
 
 **Lab 1:** Autobiograohy in Raw HTML (with a little inline CSS)
 
@@ -17,7 +17,7 @@ All my work for CPS530, including my final group project done using Express, Rea
 
 **Lab 7:** Client Side programming with JavaScript and JQuery
 
-##Final Project
+## Final Project
 
 Group project with Maxim Piorischin, Hazafa Tanveer, James Tan, and Adshagan Nanthakumar
 Using Express, React, and MaterialUI to create a WebApp presenting the frameworks we used.
