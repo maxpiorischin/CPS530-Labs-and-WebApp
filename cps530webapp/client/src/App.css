@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.CenterHeader {
+  text-align: center;
+  color: white;
+  font-size: calc(20px + 2vmin);
+  text-decoration: underline;
+
+}
+
+.App-header {
+  background-color: #121212;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.grey-back {
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+.Page1{
+  background-color: #282c34;
+}
+
+.Page-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* .Page6-body {
+  
+} */
+
+.textbox {
+  width: 70%;
+  color: white;
+  font-size: calc(10px + 2vmin);
+  background-color: #252525;
+  border-radius: 0.5em;
+  padding: 7px;
+}
+
+.white{
+  color: white;
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.black-back{
+  background-color: #202020;
+}
+
+.reg-text {
+  white-space: pre-line;
+  text-align: center;
+}
+
+.no-margin {
+  margin: 0;
+}
+.tiny-margin {
+  margin: 5px;
+}

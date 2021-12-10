@@ -121,3 +121,19 @@ a:link, a:visited {
 .lab6-link:hover, .lab6-linkactive {
     background-color: rgb(235, 14, 14);
 }
+
+.lab7-link:link, .lab7-link:visited {
+    background-color: #ffe23d;
+}
+  
+.lab7-link:hover, .lab7-linkactive {
+    background-color: #f3d216;
+}
+
+.project-link:link, .project-link:visited {
+    background-color: #61DBFB;
+}
+  
+.project-link:hover, .project-linkactive {
+    background-color: #2bbbdf;
+}
